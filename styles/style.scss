@@ -1,0 +1,10 @@
+@import './variables.scss';
+
+.header{
+    display: flex;
+    background-color: $main-color;
+    ;
+    &__icon{
+        user-select: none;
+    }
+}
