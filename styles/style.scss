@@ -88,3 +88,65 @@ ul {
     display: none;
   }
 }
+.main_tittle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: $additional-color;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+
+  &__heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  &__devices {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .devices_button {
+    background-color: $secondary-color;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto;
+    text-align: center;
+
+    &:hover {
+      background-color: darken($secondary-color, 10%);
+    }
+  }
+
+  &__description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+
+  &__readmore {
+    display: inline-block;
+    color: $main-color;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid $main-color;
+    padding-bottom: 3px;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: darken($main-color, 10%);
+    }
+  }
+}
