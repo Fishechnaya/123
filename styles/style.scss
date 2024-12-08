@@ -5,7 +5,7 @@
   }
   .logo {
     width: 85px;
-    margin-left: 15px;
+    margin-left: 10px;
   }
   .devider {
     margin-left: 20px;
@@ -22,6 +22,7 @@
 .block1 {
   display: flex;
   .Text1 {
+    margin-top: 27px;
     margin-left: 10px;
   }
   .highlight {
@@ -31,6 +32,67 @@
   .text2 {
     display: flex;
     position: absolute;
-    padding-top: 70px;
+    padding-top: 90px;
+    padding-inline: 12px;
+    .miniText1 {
+      margin-right: 20px;
+      font-size: 20px;
+    }
+    .miniText2 {
+      margin-right: 20px;
+      font-size: 20px;
+    }
+    .miniText3 {
+      margin-right: 20px;
+      font-size: 20px;
+    }
+    .miniText4 {
+      margin-right: 20px;
+      font-size: 20px;
+    }
+    .miniText5 {
+      margin-right: 20px;
+      font-size: 20px;
+    }
+    .miniText6 {
+      margin-top: 100px;
+      padding-left: 10px;
+      padding-right: 370px;
+      position: absolute;
+    }
+    .strelki {
+      position: absolute;
+      margin-top: 205px;
+      margin-left: 20px;
+    }
+    .miniText7 {
+      position: absolute;
+      margin-top: 200px;
+      margin-left: 40px;
+    }
+    .logoPhoto {
+      position: absolute;
+      margin-top: 240px;
+    }
   }
+}
+
+.block2 {
+  .miniText8 {
+    margin-top: 540px;
+    font-size: 18px;
+    position: absolute;
+  }
+}
+
+  @media (max-width: 320px) {
+    h1 {
+        font-size: 1.2em;
+    }
+    nav a {
+        font-size: 12px;
+    }
+    button {
+        font-size: 14px;
+    }
 }
