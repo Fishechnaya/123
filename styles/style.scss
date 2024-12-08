@@ -1,98 +1,125 @@
+$main-color: #ff3e79;
+$secondary-color: #41f6d7;
+$additional-color: #fff;
+$main-content-color: #f8f8f8;
+
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1120px;
+
+body {
+  background: #f8f8f8;
+  margin: 0%;
+}
+
 .header {
   display: flex;
-  .burger {
-    margin-left: 2px;
+  background-color: #ffffff;
+  margin-top: 4px;
+  .menu {
+    padding-left: 10px;
+    padding-right: 20px;
   }
   .logo {
+    padding-right: 30px;
     width: 85px;
-    margin-left: 10px;
   }
   .devider {
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-right: 20px;
   }
   .repair {
-    margin: 0px 10px;
-  }
-  .checkstatus {
-    margin-left: 10px;
+    padding-right: 25px;
   }
 }
 
 .block1 {
   display: flex;
-  .Text1 {
-    margin-top: 27px;
+  background-color: #ffffff;
+  .palkaGreen {
+    margin-top: 15px;
+  }
+  .text1 {
+    font-size: 25px;
     margin-left: 10px;
+    margin-bottom: 7px;
   }
-  .highlight {
-    position: absolute;
-    margin-top: 20px;
-  }
-  .text2 {
-    display: flex;
-    position: absolute;
-    padding-top: 90px;
-    padding-inline: 12px;
-    .miniText1 {
-      margin-right: 20px;
-      font-size: 20px;
-    }
-    .miniText2 {
-      margin-right: 20px;
-      font-size: 20px;
-    }
-    .miniText3 {
-      margin-right: 20px;
-      font-size: 20px;
-    }
-    .miniText4 {
-      margin-right: 20px;
-      font-size: 20px;
-    }
-    .miniText5 {
-      margin-right: 20px;
-      font-size: 20px;
-    }
-    .miniText6 {
-      margin-top: 100px;
-      padding-left: 10px;
-      padding-right: 370px;
-      position: absolute;
-    }
-    .strelki {
-      position: absolute;
-      margin-top: 205px;
-      margin-left: 20px;
-    }
-    .miniText7 {
-      position: absolute;
-      margin-top: 200px;
-      margin-left: 40px;
-    }
-    .logoPhoto {
-      position: absolute;
-      margin-top: 240px;
-    }
-  }
+  
 }
 
 .block2 {
-  .miniText8 {
-    margin-top: 540px;
-    font-size: 18px;
-    position: absolute;
+  display: flex;
+  .text2, .text3, .text4, .text5, .text6 {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 17px;
   }
 }
 
-  @media (max-width: 320px) {
-    h1 {
-        font-size: 1.2em;
-    }
-    nav a {
-        font-size: 12px;
-    }
-    button {
-        font-size: 14px;
-    }
+.block3 {
+  justify-content: center;
+  display: flex;
+  .text7 {
+    margin-left: 17px;
+  }
+}
+
+.block4 {
+  display: flex;
+  justify-content: center;
+}
+
+.strelki {
+  display: flex;
+  margin-left: 23px;
+}
+
+.text8 {
+  display: flex;
+  margin-left: 37px;
+}
+
+.text9 {
+  display: flex;
+  color: gray;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.lenovo {
+  margin-left: 40px;
+}
+
+.strelka {
+  width: 35px;
+  margin-left: 70px;
+}
+
+.tochki {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+
+.text10 {
+  display: flex;
+  color: gray;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+
+.text11 {
+  display: flex;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.strelka2 {
+  display: flex;
+  margin-top: 45px;
+  margin-left: 250px;
 }
