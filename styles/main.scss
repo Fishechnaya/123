@@ -1,0 +1,119 @@
+@import "./variables.scss";
+
+  img {
+    cursor: pointer;
+  }
+  
+  .subtitle__tablet {
+    @media (min-width: $tablet-width) {
+      display: flex;
+    }
+  }
+  
+  .brands {
+    display: none;
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, 224px);
+    gap: 16px 32px;
+    justify-content: space-between;
+    grid-template-areas:
+      ". . ."
+      ". . .";
+    @media (min-width: 1410px) {
+      grid-template-areas:
+        ". . . ."
+        ". . . .";
+    }
+    @media (min-width: $desktop-width) {
+      display: grid;
+    }
+    &_title {
+      padding-left: 16px;
+      font-size: 16px;
+      color: #7e7e82;
+      @media (min-width: $tablet-width) {
+        padding-left: 32px;
+      }
+      &--container {
+        display: flex;
+        background: linear-gradient(90deg, #f8f8f8 1.39%, #ffffff 100%);
+        width: 100%;
+        min-height: 56px;
+        align-items: center;
+      }
+    }
+    &_container {
+      width: auto;
+      height: 72px;
+      gap: 0px;
+      border-radius: 6px;
+      border-color: #eaeaea;
+      background-color: white;
+      display: none;
+      align-items: center;
+      padding-left: 16px;
+      padding-right: 16px;
+      justify-content: space-between;
+      border: 1px solid white;
+      cursor: pointer;
+      &:hover {
+        transition: border 0.5s;
+        border: 1px solid $hover-color;
+        & > .go_container {
+          transition: background-color 0.5s, border 0.5s;
+          background-color: #ffb3ca;
+          border: 2px solid #ffb3ca;
+        }
+      }
+  
+      &--desktop {
+        @media (min-width: 1410px) {
+          display: flex;
+        }
+      }
+      &--tablet {
+        @media (min-width: $desktop-width) {
+          display: flex;
+        }
+      }
+    }
+  }
+  
+  .go_container {
+    width: 40px;
+    height: 40px;
+    border: 2px solid $butt-color;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .page-content__shadow--2 {
+    margin-top: 24px;
+  }
+  
+  .Title__header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    &--right {
+      display: none;
+      @media (min-width: $desktop-width) {
+        display: flex;
+        align-items: center;
+        padding-right: 30px;
+        gap: 32px;
+      }
+      &1 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+  }
+  

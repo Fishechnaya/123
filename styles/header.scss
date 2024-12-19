@@ -42,7 +42,6 @@ li {
     padding: 7px 21px;
     gap: 28px;
     &--items{
-      font-family: "TT Lakes";
       font-weight: 500;
       font-size: 16px;
       letter-spacing: -0.2px;
@@ -62,14 +61,12 @@ li {
   }
   &--mail {
     padding-left: 19px;
-    font-family: "TT Lakes";
     font-size: 16px;
     font-weight: 500;
     letter-spacing: -0.2px;
   }
   &--number {
     padding: 12px 19px 0px;
-    font-family: "TT Lakes";
     font-weight: 700;
     font-size: 24px;
     letter-spacing: -0.9px;
@@ -80,7 +77,6 @@ li {
     gap: 7px;
     padding: 40px 21px;
     padding-bottom: 16px;
-    font-family: "TT Lakes";
     font-size: 16px;
     letter-spacing: -0.2px;
   }
@@ -164,14 +160,12 @@ li {
   padding-top: 24px;
 }
 .Title--text {
-  font-family: "TT Lakes";
   font-weight: 700;
   padding-top: 4px;
   font-size: 28px;
   color: $text-color;
 }
 .subtitle {
-  font-family: "TT Lakes";
   font-weight: 400;
   color: $text-color;
   letter-spacing: 0.2px;
@@ -227,7 +221,6 @@ li {
       
     }
     &--text {
-      font-family: "TT Lakes";
       color: $text-color;
       font-weight: 500;
       cursor: pointer;
@@ -239,9 +232,9 @@ li {
   }
 }
 .picture {
+  width: auto;
   padding-top: 16px;
   cursor: grab;
-  width: 100%;
   height: 176px;
   @media (min-width: $tablet-width){
     padding-top: 7px;
@@ -290,7 +283,6 @@ li {
   &--list {
     padding-left: 16px;
     &--items {
-      font-family: "TT Lakes Medium";
       font-size: 16px;
       letter-spacing: -0.2px;
       color: $text-color;
@@ -361,7 +353,6 @@ li {
 }
 
 .subtitle_show {
-  font-family: "TT Lakes";
 font-weight: 400;
 color: $text-color;
 letter-spacing: 0.2px;
