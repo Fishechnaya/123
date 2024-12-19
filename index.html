@@ -1,71 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.scss">
-  <link rel="stylesheet" href="node_modules/normalize.css/">
-  <title>Document</title>
-</head>
-<body>
-  <div class="header">
-    <img class="menu" src="image/burger.svg" alt="">
-    <img class="logo" src="image/Group.svg" alt="">
-    <img class="devider" src="image/divider.svg" alt="">
-    <img class="repair" src="image/repair.svg" alt="">
-    <img class="checkstatus" src="image/checkstatus.svg" alt="">
-  </div>
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/normalize.css/">
+    <link rel="stylesheet" href="styles/header.scss">
+    <title>Vite</title>
+  </head>
+  <body>
+    <div id="main-container">
+      <aside class="side-menu">
+      <div><ul class="side-menu--header">
+        <a href="#"><li><img src="image/Group.svg" alt=""></li></a>
+        <a href="#"><li><img src="image/search.svg" alt=""></li></a>
+      </ul>
+      <ul class="side-menu--list">
+        <li class="side-menu--list--items"><a href="#">Ремонт техники</a></li>
+        <li class="side-menu--list--items"><a href="#">Услуги и сервисы</a></li>
+        <li class="side-menu--list--items"><a href="#">Корпоративным клиентам</a></li>
+        <li class="side-menu--list--items"><a href="#">Продавцам техники</a></li>
+        <li class="side-menu--list--items"><a href="#">Партнерам</a></li>
+        <li class="side-menu--list--items"><a href="#">Производителям</a></li>
+        <li class="side-menu--list--items"><a href="#">Наши сервисные центры</a></li>
+        <li class="side-menu--list--items"><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+      <div>
+      <ul class="side-menu--icons">
+        <li class="call_burger"><img src="image/call.svg" alt=""></li>
+        <li class="message_burger"><img  src="image/chat.svg" alt=""></li>
+        <a href="#"><li><img src="image/profile.svg" alt=""></li></a>
+      </ul>
+      <div class="side-menu--mail">mail@cps.com</div>
+      <div class="side-menu--number">8 800 890 8900</div>
+      <ul class="side-menu--lang">
+        <li><a href="#">RU</a></li>
+        <li><a href="#">EN</a></li>
+        <li><a href="#">CH</a></li>
+      </ul>
+    </div>
+      </aside>
 
-  <div class="block1">
-    <img class="palkaGreen" src="image/highlight.svg" alt="">
-    <p class="text1">Услуги и сервисы</p>
-  </div>
-  <div class="block2">
-    <p class="text2">Ремонтируемые устройства</p>
-    <p class="text3">Дополнительные услуги</p>
-    <p class="text4">Цены на услуги</p>
-    <p class="text5">Адреса сервисных центров</p>
-    <p class="text6">Специальные цены</p>
-  </div>
 
-  <div class="block3">
-    <p class="text7">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-  </div>
-  <div>
-    <img class="strelki" src="image/icon.svg" alt="">
-    <p class="text8">Читать далее</p>
-    <img class="logoPhoto" src="image/LogoPhoto.svg" alt="">
-    <p class="text9">Ремонт техники различных брендов</p>
-    <img class="lenovo" src="image/Bitmap.svg" alt="">
-    <img class="strelka" src="image/strelka.svg" alt="">
-    <img class="tochki" src="image/tochki.svg" alt="">
-    <p class="text10">Ремонт различных видов техники</p>
-    <p class="text11">Ремонт ноутбуков</p>
-    <img class="strelka2" src="image/strelka.svg" alt="">
-    <img class="oval" src="image/oval2.svg" alt="">
-    <p class="text12">Цены на услуги</p>
-    <p class="text13">Ремонтные услуги</p>
-    <p class="text14">Тестирование с выдачей технического заключения</p>
-    <p class="text15">Цена</p>
-    <p class="text16">Бесплатно</p>
-    <p class="text17">Срок</p>
-    <p class="text18">30-120 мин</p>
-    <img class="zakaz" src="image/Group10.svg" alt="">
-    <img class="oval3" src="image/oval.svg" alt="">
-  </div>
-  <p class="text19">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
-  <p class="text20">Получить коммерческое предложение</p>
-  <img class="miniStrelka" src="image/mikrostrelka.svg" alt="">
 
-  <div class="footer">
-    <p class="text21">© 2019 CPS
-      Разработано командой Apesong </p>
-    <p class="text22">
-      Политика конфиденциальности
-    </p>
-    <p class="text23">
-      Информация, размещенная на данной странице, не является публичной офертой
-    </p>
-  </div>
-</body>
+      <section class="main__section">
+        <header class="header">
+          <ul class="header__nav">
+            <div class="header__nav--leftside">
+              <li class="header__nav--items burger"><img src="image/burger.svg" alt="burger">
+              </li>
+              <a href="#"><li class="header__nav--items"><img src="image/Group.svg" alt=""></li></a>
+              <li class="header__nav--divider"><img src="image/divider.svg" alt=""></li>
+            </div>
+            
+            <div class="header__nav--rightside">
+              <div class="header__nav--rightside--phone"><li class="call_tablet header__nav--items--tablet"><img src="image/call.svg" alt=""></li>
+              <li class="message_tablet header__nav--items--tablet"><img src="image/chat.svg" alt=""></li>
+              <a href="#"><li class="header__nav--items--tablet"><img src="image/profile.svg" alt=""></li></a>
+              <li class="header__nav--items--tablet"><img src="image/divider.svg" alt=""></li></div>
+              <a href="#"><li class="header__nav--items"><img src="image/repair.svg" alt=""></li></a>
+              <a href="#"><li class="header__nav--items"><img src="image/checkstatus.svg" alt=""></li></a>
+            </div>
+            
+              <div class="test_menu">
+                <div class="test_menu--1"><div><ul class="test_menu--header">
+                  <div class="test_menu--header--left"><li><div class="close__button"><img src="image/mikrostrelka.svg" alt=""></div></li>
+                  <a href="#"><li><img src="image/Group.svg" alt=""></li></a></div>
+                  <div class="test_menu--header--right"><a href="#"><li><img src="image/search.svg" alt=""></li></a></div>
+                </ul>
+                <ul class="side-menu--list">
+                  <li class="test_menu--list--items"><a href="#">Ремонт техники</a></li>
+                  <li class="test_menu--list--items"><a href="#">Услуги и сервисы</a></li>
+                  <li class="test_menu--list--items"><a href="#">Корпоративным клиентам</a></li>
+                  <li class="test_menu--list--items"><a href="#">Продавцам техники</a></li>
+                  <li class="test_menu--list--items"><a href="#">Партнерам</a></li>
+                  <li class="test_menu--list--items"><a href="#">Производителям</a></li>
+                  <li class="test_menu--list--items"><a href="#">Наши сервисные центры</a></li>
+                  <li class="test_menu--list--items"><a href="#">Контакты</a></li>
+                </ul>
+              </div>
+                <div>
+                <ul class="tablet--icons side-menu--icons">
+                  <li class="call"><img src="image/call.svg" alt=""></li>
+                  <li  class="message"><img src="image/chat.svg" alt=""></li>
+                  <a href="#"><li><img src="image/profile.svg" alt=""></li></a>
+                </ul>
+                <div class="side-menu--mail">mail@cps.com</div>
+                <div class="side-menu--number">8 800 890 8900</div>
+                <ul class="side-menu--lang">
+                  <li><a href="#">RU</a></li>
+                  <li><a href="#">EN</a></li>
+                  <li><a href="#">CH</a></li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </header>
+  </body>
 </html>
