@@ -4,41 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="node_modules/normalize.css/">
-    <link rel="stylesheet" href="styles/header.scss">
+    <link rel="stylesheet" href="styles/globals.scss">
     <title>Vite</title>
   </head>
   <body>
-    <div id="main-container">
-      <aside class="side-menu">
-      <div><ul class="side-menu--header">
-        <a href="#"><li><img src="image/Group.svg" alt=""></li></a>
-        <a href="#"><li><img src="image/search.svg" alt=""></li></a>
+    <div id="app">
+      <aside class="aside__menu">
+      <div><ul class="aside__menu--header">
+        <a href="#"><li><img src="icons/logo.svg" alt=""></li></a>
+        <a href="#"><li><img src="icons/search.svg" alt=""></li></a>
       </ul>
-      <ul class="side-menu--list">
-        <li class="side-menu--list--items"><a href="#">Ремонт техники</a></li>
-        <li class="side-menu--list--items"><a href="#">Услуги и сервисы</a></li>
-        <li class="side-menu--list--items"><a href="#">Корпоративным клиентам</a></li>
-        <li class="side-menu--list--items"><a href="#">Продавцам техники</a></li>
-        <li class="side-menu--list--items"><a href="#">Партнерам</a></li>
-        <li class="side-menu--list--items"><a href="#">Производителям</a></li>
-        <li class="side-menu--list--items"><a href="#">Наши сервисные центры</a></li>
-        <li class="side-menu--list--items"><a href="#">Контакты</a></li>
+      <ul class="aside__menu--list">
+        <li class="aside__menu--list--items"><a href="#">Ремонт техники</a></li>
+        <li class="aside__menu--list--items"><a href="#">Услуги и сервисы</a></li>
+        <li class="aside__menu--list--items"><a href="#">Корпоративным клиентам</a></li>
+        <li class="aside__menu--list--items"><a href="#">Продавцам техники</a></li>
+        <li class="aside__menu--list--items"><a href="#">Партнерам</a></li>
+        <li class="aside__menu--list--items"><a href="#">Производителям</a></li>
+        <li class="aside__menu--list--items"><a href="#">Наши сервисные центры</a></li>
+        <li class="aside__menu--list--items"><a href="#">Контакты</a></li>
+      </ul></div><div>
+      <ul class="aside__menu--icons">
+        <li class="call_burger"><img src="icons/call.svg" alt=""></li>
+        <li class="message_burger"><img  src="icons/chat.svg" alt=""></li>
+        <a href="#"><li><img src="icons/profile.svg" alt=""></li></a>
       </ul>
-    </div>
-      <div>
-      <ul class="side-menu--icons">
-        <li class="call_burger"><img src="image/call.svg" alt=""></li>
-        <li class="message_burger"><img  src="image/chat.svg" alt=""></li>
-        <a href="#"><li><img src="image/profile.svg" alt=""></li></a>
-      </ul>
-      <div class="side-menu--mail">mail@cps.com</div>
-      <div class="side-menu--number">8 800 890 8900</div>
-      <ul class="side-menu--lang">
+      <div class="aside__menu--mail">mail@cps.com</div>
+      <div class="aside__menu--number">8 800 890 8900</div>
+      <ul class="aside__menu--lang">
         <li><a href="#">RU</a></li>
         <li><a href="#">EN</a></li>
         <li><a href="#">CH</a></li>
-      </ul>
-    </div>
+      </ul></div>
       </aside>
 
 
@@ -47,28 +44,28 @@
         <header class="header">
           <ul class="header__nav">
             <div class="header__nav--leftside">
-              <li class="header__nav--items burger"><img src="image/burger.svg" alt="burger">
+              <li class="header__nav--items burger"><img src="/icons/burger.svg" alt="burger">
               </li>
-              <a href="#"><li class="header__nav--items"><img src="image/Group.svg" alt=""></li></a>
-              <li class="header__nav--divider"><img src="image/divider.svg" alt=""></li>
+              <a href="#"><li class="header__nav--items"><img src="icons/logo.svg" alt=""></li></a>
+              <li class="header__nav--divider"><img src="icons/divider.svg" alt=""></li>
             </div>
             
             <div class="header__nav--rightside">
-              <div class="header__nav--rightside--phone"><li class="call_tablet header__nav--items--tablet"><img src="image/call.svg" alt=""></li>
-              <li class="message_tablet header__nav--items--tablet"><img src="image/chat.svg" alt=""></li>
-              <a href="#"><li class="header__nav--items--tablet"><img src="image/profile.svg" alt=""></li></a>
-              <li class="header__nav--items--tablet"><img src="image/divider.svg" alt=""></li></div>
-              <a href="#"><li class="header__nav--items"><img src="image/repair.svg" alt=""></li></a>
-              <a href="#"><li class="header__nav--items"><img src="image/checkstatus.svg" alt=""></li></a>
+              <div class="header__nav--rightside--phone"><li class="call_tablet header__nav--items--tablet"><img src="icons/call.svg" alt=""></li>
+              <li class="message_tablet header__nav--items--tablet"><img src="icons/chat.svg" alt=""></li>
+              <a href="#"><li class="header__nav--items--tablet"><img src="icons/profile.svg" alt=""></li></a>
+              <li class="header__nav--items--tablet"><img src="icons/divider.svg" alt=""></li></div>
+              <a href="#"><li class="header__nav--items"><img src="icons/repair.svg" alt=""></li></a>
+              <a href="#"><li class="header__nav--items"><img src="icons/checkstatus.svg" alt=""></li></a>
             </div>
             
               <div class="test_menu">
                 <div class="test_menu--1"><div><ul class="test_menu--header">
-                  <div class="test_menu--header--left"><li><div class="close__button"><img src="image/mikrostrelka.svg" alt=""></div></li>
-                  <a href="#"><li><img src="image/Group.svg" alt=""></li></a></div>
-                  <div class="test_menu--header--right"><a href="#"><li><img src="image/search.svg" alt=""></li></a></div>
+                  <div class="test_menu--header--left"><li><div class="close__button"><img src="icons/cross.svg" alt=""></div></li>
+                  <a href="#"><li><img src="icons/logo.svg" alt=""></li></a></div>
+                  <div class="test_menu--header--right"><a href="#"><li><img src="icons/search.svg" alt=""></li></a></div>
                 </ul>
-                <ul class="side-menu--list">
+                <ul class="aside__menu--list">
                   <li class="test_menu--list--items"><a href="#">Ремонт техники</a></li>
                   <li class="test_menu--list--items"><a href="#">Услуги и сервисы</a></li>
                   <li class="test_menu--list--items"><a href="#">Корпоративным клиентам</a></li>
@@ -77,24 +74,26 @@
                   <li class="test_menu--list--items"><a href="#">Производителям</a></li>
                   <li class="test_menu--list--items"><a href="#">Наши сервисные центры</a></li>
                   <li class="test_menu--list--items"><a href="#">Контакты</a></li>
-                </ul>
-              </div>
+                </ul></div>
                 <div>
-                <ul class="tablet--icons side-menu--icons">
-                  <li class="call"><img src="image/call.svg" alt=""></li>
-                  <li  class="message"><img src="image/chat.svg" alt=""></li>
-                  <a href="#"><li><img src="image/profile.svg" alt=""></li></a>
+                <ul class="tablet--icons aside__menu--icons">
+                  <li class="call"><img src="icons/call.svg" alt=""></li>
+                  <li  class="message"><img src="icons/chat.svg" alt=""></li>
+                  <a href="#"><li><img src="icons/profile.svg" alt=""></li></a>
                 </ul>
-                <div class="side-menu--mail">mail@cps.com</div>
-                <div class="side-menu--number">8 800 890 8900</div>
-                <ul class="side-menu--lang">
+                <div class="aside__menu--mail">mail@cps.com</div>
+                <div class="aside__menu--number">8 800 890 8900</div>
+                <ul class="aside__menu--lang">
                   <li><a href="#">RU</a></li>
                   <li><a href="#">EN</a></li>
                   <li><a href="#">CH</a></li>
                 </ul>
+              </div></div>
+              <div class="test_menu--whiteshit">
+
               </div>
-            </div>
           </ul>
         </header>
+        
   </body>
 </html>
